@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA Compatible" content="ie=edge">
+    <title>COVID-19</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!--Навигационное меню-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><img src="img/who-logo-1024x329.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon">
+                    
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Лечение</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">В мире</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Слайдер с картинками-->
+    <div class="carousel slide" data-ride="carousel" id="slides">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/coronavirus-phishing-featured.jpg" alt="">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Пандемия COVID-19</h1>
+                    <h3>Что же делать?</h3>
+                    <button type="button" class="btn btn-danger bt-lg">При симптомах</button>
+                    <button type="button" class="btn bt-lg">Узнать подробнее</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Outbreak-coronavirus-world-large.png" alt="">
+                <div class="carousel-caption">
+                    <h1 class="display-2">В вашей стране:</h1>
+                    <button type="button" class="btn btn-warning bt-lg">Узнать о приросте болеющих</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/0.jpg" alt="">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Чем занять себя?</h1>
+                    <h3>Способы правильно распределить время</h3>
+                    <button type="button" class="btn btn-warning bt-lg">Узнать подробнее</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Панель с кнопкой-->
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+                <p class="lead"><b>COVID-19</b> (аббревиатура от англ. <b>Coronavirus Disease 2019</b>), ранее коронавирусная инфекция 2019-nCoV— потенциально тяжёлая острая респираторная инфекция, вызываемая коронавирусом <b>SARS-CoV-2 (2019-nCoV)</b>. Представляет
+                    собой опасное заболевание, которое может протекать как в форме острой респираторной вирусной инфекции лёгкого течения, так и в тяжёлой форме, специфические осложнения которой могут включать вирусную пневмонию, влекущую за собой острый
+                    респираторный дистресс-синдром или дыхательную недостаточность с риском смерти. К наиболее распространённым симптомам заболевания относятся повышенная температура тела, утомляемость и сухой кашель. В редких случаях поражение вирусом
+                    детей и подростков, предположительно, может приводить к развитию воспалительного синдрома.</p>
+            </div>
+            <div class="col-xs-10 col-sm-10 col-md-2 col-lg-2 col-xl-2">
+                <a href="#"><button class="btn btn-success btn-lg">Читать далее</button></a>
+            </div>
+        </div>
+    </div>
+    <!--Заголовок и текст ниже-->
+    <div class="containter-fluid">
+        <div class="row text-center alert">
+            <div class="col-12">
+                <h1 class="display-5">Симптомы</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">Коронавирусная инфекция COVID-19 воздействует на различные группы людей в разной степени. У большинства инфицированных болезнь протекает в легкой или средней форме тяжести, и им не требуется госпитализация.</p>
+            </div>
+        </div>
+    </div>
+    <!--Иконки с подписями-->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-7 col-sm-6 col-md-4">
+                <img id="gifs" src="img/light_fever.gif" alt="">
+                <h3>Лихорадка</h3>
+                <p>(от 83% до 99% случаев)</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img id="gifs" src="img/light_cough.gif" alt="">
+                <h3>Кашель</h3>
+                <p>(от 59% до 82% случаев)</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img id="gifs" src="img/light_tiredness.gif" alt="">
+                <h3>Утомляемость</h3>
+                <p>(от 44% до 70% случаев)</p>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <!--Заголовок для карточек-->
+    <div class="container-fluid padding">
+        <div class="row alert text-center">
+            <div class="col-12">
+                <h1 class="display-4">Профилактика</h1>
+                <hr>
+
+            </div>
+        </div>
+    </div>
+    <!--Карточки-->
+    <div class="container padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/file-20200417-152563-1h6zpvf.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Соблюдайте правила гигиены рук.</h4>
+                        <p class="card-text">Часто мойте руки водой с мылом.</p>
+                    </div>
+                    <a href="#" class="btn btn-danger">Посмотреть</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/social-distancing-covid19.png" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Держитесь на безопасном расстоянии</h4>
+                        <p class="card-text">..от чихающих или кашляющих людей.</p>
+                    </div>
+                    <a href="#" class="btn btn-danger">Посмотреть</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Без названия (3).jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Не прикасайтесь руками к лицу</h4>
+                        <p class="card-text">к глазам, рту или носу.</p>
+                    </div>
+                    <a href="#" class="btn btn-danger">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/kashel_001.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">При кашле или чихании...</h4>
+                        <p class="card-text">прикрывайте рот и нос локтевым сгибом или платком.</p>
+                    </div>
+                    <a href="#" class="btn btn-danger">Посмотреть</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/nedomoganiya_.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Если вы чувствуете недомогание</h4>
+                        <p class="card-text">..вам желательно остаться дома.</p>
+                    </div>
+                    <a href="#" class="btn btn-danger">Посмотреть</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/pasted image 0.png" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">В случае выявления симптомов...</h4>
+                        <p class="card-text">обратитесь за медицинской помощью. Вызовите врача по телефону.</p>
+
+                    </div>
+                    <a href="#" class="btn btn-danger">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <!--Панель с картинкой, кнопкой и текстом-->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="offset-lg-2 col-lg-4">
+                <h2>Как ведется разработка лекарства?</h2>
+                <p>Сейчас в мире разрабатывается и опробуется более 150 препаратов против коронавируса. Большинство из них - это уже существующие лекарства, и ученые выясняют, могут ли они воздействовать на вирус.</p>
+                <ul>
+                    <li>
+                        Всемирная организация здравоохранения (ВОЗ) начала клиническое исследование самых перспективных лекарственных средств против Covid-19. Исследование получило название "Солидарность" (Solidarity).
+                    </li>
+                    <li>
+                        В Британии проводится клиническое исследование "Восстановление" (Recovery), которое является крупнейшим в мире - в нем участвуют более 5 тыс. добровольцев.
+                    </li>
+                    <li>
+                        Также в некоторых странах научные центры пробуют использовать для лечения кровь людей, переболевших Covid-19.
+                    </li>
+                </ul>
+                <br>
+                <a href="#" class="btn btn-warning">Подробнее</a>
+            </div>
+            <div class="col-lg-5">
+                <br><br>
+                <img id="rounded" src="img/Depositphotos_344965380_xl-2015-pic4_zoom-1500x1500-4862.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!--Контакты-->
+    <footer class="container-fluid">
+        <div class="container-fluid">
+            <div class="row padding text-center">
+                <div class="col-12">
+                    <h2>Наши контакты</h2>
+                </div>
+                <div class="col-12 social padding">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
